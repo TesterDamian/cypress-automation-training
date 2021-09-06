@@ -6,6 +6,7 @@ describe('Custom tests', () => {
         cy.get('#searchInput').clear();
     })
 
+    
     it('Should click upon text selector', () => {
         cy.findAllByText('Geografia').click()
     })
